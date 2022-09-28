@@ -55,7 +55,7 @@ function Meme() {
         value="Get a new meme image"
       />
       <div className="meme--image_container">
-        <img className="meme--image" src={meme.randomImage}></img>
+        <img className="meme--image" src={meme.randomImage} alt="meme image"></img>
         <h2 className="meme--text top">{meme.topText}</h2>
         <h2 className="meme--text bottom">{meme.bottomText}</h2>
       </div>
